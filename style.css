@@ -1,0 +1,73 @@
+body {
+font-family: "Roboto Mono", monospace;
+text-align: center;
+background-image: url("https://cdn.wallpapersafari.com/85/54/tPkpIK.jpg");
+background-color: #000000;
+background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+}
+
+.container {
+text-align: center;
+padding: 20px;
+}
+
+.page-title {
+color: #ffffff;
+margin: 0 0 5px;
+}
+
+.page-subtitle {
+color: #ffffff;
+margin-top: 5px;
+}
+
+.page-logo {
+width: 200px;
+}
+
+.alura-logo {
+width: 40px;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+body > img {
+margin: 0 10px;
+}
+
+img {
+max-height: 250px;
+
+}
+.game{
+  display:inline-block;
+  margin: 15px;
+  color:#FFFFFF;
+  min-width: 436px;
+  
+  width:200px;
+  height:250px
+    
+  
+}
+.input{
+  width: 600px;
+  height: 50px;
+  font-size: 20px;
+}
+.label{
+  color:white;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+      
+}
+.button{
+  font-size: 20px;
+}
+img:hover{
+  transform: scale(1.4);
+}
